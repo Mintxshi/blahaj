@@ -1,10 +1,16 @@
 const colors = require('colors')
-const deploy = require('../deploy')
 module.exports = {
 	name: 'ready',
 	once: true,
 	execute(client) {
+		console.clear()
         console.log(`${'blahaj'.blue} has started.`);
-        deploy.deploy()
+		client.user.setPresence({
+			game: {
+				name: 'dunno dont care',
+				type: "STREAMING",
+				url: "https://www.twitch.tv/monstercat"
+			}
+		});
 	},
 };

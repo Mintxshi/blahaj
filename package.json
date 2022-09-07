@@ -20,8 +20,12 @@
     "@discordjs/voice": "^0.11.0",
     "bufferutil": "^4.0.6",
     "colors": "^1.4.0",
+    "craiyon": "^1.0.0",
     "discord.js": "^14.2.0",
     "erlpack": "github:discord/erlpack",
+    "node-craiyon": "^0.1.0",
+    "sirv": "^2.0.2",
+    "svelte": "^3.50.0",
     "utf-8-validate": "^5.0.9",
     "zlib-sync": "^0.1.7"
   }
