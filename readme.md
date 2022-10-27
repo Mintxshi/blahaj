@@ -6,8 +6,8 @@ enjoy docs and that stuff
 ---
 ## 02 | Dependants
 #### discord.js
-#### svelte
-#### sirv
+#### mantine
+#### react
 #### im probably missing things look in code
 ---
 ## 03 | Setup
